@@ -1,0 +1,50 @@
+
+.input {
+	border: 3px #91d2e5 solid;
+	font-size: 14px;
+	padding: 8px;
+	flex-grow: 1;
+}
+
+.for-input {
+	display: flex;
+	gap: 12px;
+	width: 600px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.button {
+	background-color: #91d2e5;
+	border: 3px #91d2e5 solid;
+	font-size: 14px;
+	padding: 8px;
+}
+
+.button:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.output {
+	border: 3px #91d2e5 solid;
+	width: 600px;
+	height: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 0.5rem;
+}
+
+.message, .self {
+	margin-top: 1rem;
+	border: 2px solid #91d2e5; 
+	border-radius: 5px; 
+	padding: 6px;
+	width: fit-content;
+	max-width: 70%;
+}
+
+.message.self {
+	margin-left: auto;
+}
